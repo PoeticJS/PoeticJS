@@ -5,6 +5,13 @@ const withMDX = createMDX()
 
 const config: NextConfig = {
   reactStrictMode: true,
+  serverExternalPackages: [
+    'ts-morph',
+    'typescript',
+    'oxc-transform',
+    'twoslash',
+    'shiki',
+  ],
 }
 
 export default withMDX(config)

@@ -1,6 +1,7 @@
 import "@/app/globals.css";
 import { RootProvider } from 'fumadocs-ui/provider';
 import type { ReactNode } from 'react';
+import 'katex/dist/katex.css';
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
